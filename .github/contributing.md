@@ -30,12 +30,12 @@ Only issues with the label **[confirmed]** should be picked up and fixed. If you
    - In GitHub, navigate to the issue and go to the **Development** section.
    - Select **Create a branch**, and choose your forked repository as the location for the branch.
    - Here you will have two options:
-     - **Create a new branch** for the issue. <!-- See our **Branching Strategy** section for more details. -->
+     - **Create a new branch** for the issue. See our [Branching Strategy](#https://forestforesight.atlassian.net/wiki/spaces/EWS/overview?homepageId=32961) section for more details.
      - Use the **default branch (develop)**.
 
 ### 4. Develop and Test Your Changes
-   - After making the necessary changes in your branch, follow the **Testing Strategy** to ensure your changes are covered by unit tests. <!-- TODO: should provide confluence link -->
-   - Ensure code quality by running the `styler` and `lintr` checks. You can follow the instructions in the **Tools** section to use `styler` and `lintr`. <!-- TODO: should provide confluence link -->
+   - After making the necessary changes in your branch, follow the [Testing Strategy](#https://forestforesight.atlassian.net/wiki/spaces/EWS/overview?homepageId=32961) to ensure your changes are covered by unit tests.
+   - Ensure code quality by running the `styler` and `lintr` checks. You can follow the instructions in the [Tools](#https://forestforesight.atlassian.net/wiki/spaces/EWS/overview?homepageId=32961) section to use `styler` and `lintr`.
    - Confirm that all code meets the project’s standards before submitting.
 
 ### 5. Create a Pull Request (PR)
